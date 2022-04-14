@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 	class Errors extends Controllers{
 		public function __construct()

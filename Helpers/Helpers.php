@@ -1,15 +1,15 @@
-<?php 
+<?php
 
 	//Retorla la url del proyecto
 	function base_url()
 	{
 		return BASE_URL;
 	}
+    //Retorna la url del Assets
     function media()
     {
-        return BASE_URL."Assets/";
+        return BASE_URL."/Assets";
     }
-    
 	//Muestra información formateada
 	function dep($data)
     {
@@ -81,6 +81,6 @@
         $cantidad = number_format($cantidad,2,SPD,SPM);
         return $cantidad;
     }
-    
+
 
  ?>

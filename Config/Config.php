@@ -1,7 +1,7 @@
 <?php 
 	
 	
-	const BASE_URL = "https://localhost/TiendaVirtual-AppWeb/";
+	const BASE_URL = "http://localhost/TiendaVirtual_AppWeb";
 
 	//Zona horaria
 	date_default_timezone_set('America/Colombia');
@@ -13,7 +13,7 @@
 	const DB_PASSWORD = "";
 	const DB_CHARSET = "charset=utf8";
 
-	//Delimitadores decimal y millar Ej. 24,1989.00
+	//Deliminadores decimal y millar Ej. 24,1989.00
 	const SPD = ".";
 	const SPM = ",";
 
