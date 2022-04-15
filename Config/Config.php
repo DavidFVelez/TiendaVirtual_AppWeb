@@ -4,7 +4,7 @@
 	const BASE_URL = "http://localhost/TiendaVirtual_AppWeb";
 
 	//Zona horaria
-	//date_default_timezone_set('America/Colombia');
+	date_default_timezone_set('America/Colombia');
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
